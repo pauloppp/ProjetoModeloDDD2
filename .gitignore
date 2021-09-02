@@ -92,11 +92,11 @@ StyleCopReport.xml
 *_wpftmp.csproj
 *.log
 *.vspscc
-*.vssscc
-.builds
-*.pidb
+*.vs
+
 *.svclog
 *.scc
+Web.config
 
 # Chutzpah Test files
 _Chutzpah*
