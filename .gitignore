@@ -96,7 +96,7 @@ StyleCopReport.xml
 
 *.svclog
 *.scc
-Web.config
+*.config
 
 # Chutzpah Test files
 _Chutzpah*
