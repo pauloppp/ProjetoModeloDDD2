@@ -67,7 +67,7 @@ namespace ProjetoModeloDDD2.MVC.App_Start
         /// <param name="kernel">The kernel.</param>
         private static void RegisterServices(IKernel kernel) // Este método do container resolve todas as injeções de dependência para o projeto.
         {
-            kernel.Bind(typeof(IAppServicoBase<>)).To(typeof(AppServicoBase<>));
+            kernel.Bind(typeof(IAppServicoBase<>)).To(typeof(AppServicoBase<>)); //Classe base precisa de typeof pois recebe TEntity de qualquer entidade.
             kernel.Bind<IClienteAppServico>().To<ClienteAppServico>();
             kernel.Bind<IProdutoAppServico>().To<ProdutoAppServico>();
 
